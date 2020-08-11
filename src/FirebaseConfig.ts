@@ -1,12 +1,12 @@
 const FirebaseConfig = {
-  apiKey: "AIzaSyAO2gMQHb3seZBmAIS3q2PyGtaKOxM-Em8",
-  authDomain: "garfblog-7d435.firebaseapp.com",
-  databaseURL: "https://garfblog-7d435.firebaseio.com",
-  projectId: "garfblog-7d435",
-  storageBucket: "garfblog-7d435.appspot.com",
-  messagingSenderId: "638608693739",
-  appId: "1:638608693739:web:6a427c216ebbf222f221ae",
-  measurementId: "G-W7DVRZT67L",
+  apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+  databaseURL: process.env.FIREBASE_DATABASE_URL,
+  projectId: process.env.FIREBASE_PROJECT_ID,
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.FIREBASE_APP_ID,
+  measurementId: process.env.FIREBASE_MEASUREMENT_ID,
 };
 
 export default FirebaseConfig;
